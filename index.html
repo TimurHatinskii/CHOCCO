@@ -4,11 +4,291 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../dist/main.min.css" />
     <title>CHOCCO</title>
   </head>
   <body>
-    <section class="start">rere</section>
+    <div class="wrapper">
+      <section class="section start">
+        <!-- <div class="leaves-pic">
+          <img src="./src/images/Листья.png" alt="" class="leaves-img" />
+        </div>
+        <div class="berries-pic">
+          <img src="./src/images/Ягоды.png" alt="" class="berries-img" />
+        </div> -->
+        <div class="container">
+          <header class="header">
+            <a href="#" class="logo-pic">
+              <svg class="logo-svg">
+                <use xlink:href="./src/images/sprite.svg#logo"></use>
+              </svg>
+            </a>
+            <nav class="nav-buttons">
+              <ul class="nav-buttons__list">
+                <li class="nav-buttons__item">
+                  <a href="#" class="nav-buttons__link">О нас</a>
+                </li>
+                <li class="nav-buttons__item">
+                  <a href="#" class="nav-buttons__link">Батончики</a>
+                </li>
+                <li class="nav-buttons__item">
+                  <a href="#" class="nav-buttons__link">Команда</a>
+                </li>
+                <li class="nav-buttons__item">
+                  <a href="#" class="nav-buttons__link">Меню</a>
+                </li>
+                <li class="nav-buttons__item">
+                  <a href="#" class="nav-buttons__link">Отзывы</a>
+                </li>
+                <li class="nav-buttons__item">
+                  <a href="#" class="nav-buttons__link">Как мы работаем</a>
+                </li>
+                <li class="nav-buttons__item">
+                  <a href="#" class="nav-buttons__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="contacts">
+              <svg class="phone-svg">
+                <use xlink:href="./src/images/sprite.svg#phone"></use>
+              </svg>
+              <div class="contacts__link">
+                <a href="tel:+78009039090" class="contacts__number"
+                  >8 800 903 90 90</a
+                >
+              </div>
+            </div>
+          </header>
+          <div class="start__info">
+            <div class="start__content">
+              <div class="start__desc">
+                <h1 class="title title--tt--up">
+                  Натуральные шоколадные батончики
+                </h1>
+                <p class="p p--size--21 p--mb--32 p--width--370">
+                  Наши батончики идеально подходят для тех, кто следит за своим
+                  здоровьем
+                </p>
+                <button class="btn btn-order">Заказать</button>
+              </div>
+              <ul class="info-product">
+                <li class="info-product__desc">
+                  <svg class="natural-svg">
+                    <use xlink:href="./src/images/sprite.svg#natural"></use>
+                  </svg>
+                  <div class="text-16 text-16--pl--8">
+                    100% натуральный продукт
+                  </div>
+                </li>
+                <li class="info-product__desc">
+                  <svg class="car-svg">
+                    <use xlink:href="./src/images/sprite.svg#car"></use>
+                  </svg>
+                  <div class="text-16 text-16--pl--8">
+                    3-5 дней доставка по РФ
+                  </div>
+                </li>
+                <li class="info-product__desc">
+                  <svg class="ruler-svg">
+                    <use xlink:href="./src/images/sprite.svg#ruler"></use>
+                  </svg>
+                  <div class="text-16 text-16--pl--8">Не портит фигуру</div>
+                </li>
+              </ul>
+            </div>
+            <div class="start__content-picture">
+              <img class="chocco-pic" src="./src/images/Батончики.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section why">
+        <div class="container">
+          <div class="why__title">
+            <h1 class="title title--color--black title--tt--up">
+              Почему CHOCCO?
+            </h1>
+            <p class="p p--size--18 p--color--grey">
+              В нашем мире все происходит очень быстро, поэтому мы делаем
+              батончики, которые удобно взять с собой.
+            </p>
+          </div>
+          <ul class="why__list">
+            <li class="why__item">
+              <div class="why__circle">
+                <svg class="people-svg">
+                  <use xlink:href="./src/images/sprite.svg#people"></use>
+                </svg>
+              </div>
+              <div class="why__desc">
+                <h3
+                  class="title title--color--black title--fs--27 title--mb--12"
+                >
+                  Полезно
+                </h3>
+                <p class="p p--size--18 p--color--grey p--fw--lighter">
+                  Натуральность - ключевое качество нашей продукции. Мы
+                  используем только природные ингредиенты.
+                </p>
+              </div>
+            </li>
+            <div class="marker-pic">
+              <img src="./src/images/marker.png" alt="" class="marker-img" />
+            </div>
+            <li class="why__item">
+              <div class="why__circle">
+                <svg class="smile-svg">
+                  <use xlink:href="./src/images/sprite.svg#smile"></use>
+                </svg>
+              </div>
+              <div class="why__desc">
+                <h3
+                  class="title title--color--black title--fs--27 title--mb--12"
+                >
+                  Вкусно
+                </h3>
+                <p class="p p--size--18 p--color--grey p--fw--lighter">
+                  Нежный, ненавязчивый, изысканный – так клиенты описывают
+                  вкусовые качества наших батончиков.
+                </p>
+              </div>
+            </li>
+            <div class="marker-pic">
+              <img src="./src/images/marker.png" alt="" class="marker-img" />
+            </div>
+            <li class="why__item">
+              <div class="why__circle">
+                <svg class="hand-svg">
+                  <use xlink:href="./src/images/sprite.svg#hand"></use>
+                </svg>
+              </div>
+              <div class="why__desc">
+                <h3
+                  class="title title--color--black title--fs--27 title--mb--12"
+                >
+                  Питательно
+                </h3>
+                <p class="p p--size--18 p--color--grey p--fw--lighter">
+                  Высокое содержание качественного белка, а также всех
+                  необходимых витаминов и минералов.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="leaf-pic">
+          <img src="./src/images/Leaf.png" alt="" class="leaf-img" />
+        </div>
+      </section>
+      <section class="section bar">
+        <div class="container">
+          <div class="bar__desc">
+            <div class="bar__left">
+              <img src="./src/images/Товар_1.png" alt="" class="product-pic" />
+            </div>
+            <div class="bar__right">
+              <div class="tooltips">
+                <svg class="chocolate-svg">
+                  <use xlink:href="./src/images/sprite.svg#chocolate"></use>
+                </svg>
+                <div class="tooltips__text">Состав</div>
+                <div class="consist consist--none">
+                  <ul class="consist__list">
+                    <li class="consist__item">
+                      <svg class="grape-svg">
+                        <use xlink:href="./src/images/sprite.svg#grape"></use>
+                      </svg>
+                      <div class="consist__name">Виноград</div>
+                      <div class="consist__weight">25 г</div>
+                    </li>
+                    <li class="consist__item">
+                      <svg class="nut-svg">
+                        <use xlink:href="./src/images/sprite.svg#nut"></use>
+                      </svg>
+                      <div class="consist__name">Грецкий орех</div>
+                      <div class="consist__weight">32 г</div>
+                    </li>
+                    <li class="consist__item">
+                      <svg class="almond-svg">
+                        <use xlink:href="./src/images/sprite.svg#almond"></use>
+                      </svg>
+                      <div class="consist__name">Кунжутное семя</div>
+                      <div class="consist__weight">20 г</div>
+                    </li>
+                    <li class="consist__item">
+                      <svg class="powder-svg">
+                        <use xlink:href="./src/images/sprite.svg#powder"></use>
+                      </svg>
+                      <div class="consist__name">Сухое масло</div>
+                      <div class="consist__weight">10 г</div>
+                    </li>
+                    <li class="consist__item">
+                      <svg class="apitherapy-svg">
+                        <use xlink:href="./src/images/sprite.svg#apitherapy"></use>
+                      </svg>
+                      <div class="consist__name">Зам. сахара</div>
+                      <div class="consist__weight">4 г</div>
+                    </li>
+                    <li class="consist__item">
+                      <svg class="beans-svg">
+                        <use xlink:href="./src/images/sprite.svg#beans"></use>
+                      </svg>
+                      <div class="consist__name">Какао бобы</div>
+                      <div class="consist__weight">4 г</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bar__right-title">
+                <h1
+                  class="title title--color--black title--tt--up title--fs--36"
+                >
+                  Батончик “Гранола виноград”
+                </h1>
+                <p class="p p--size--18 p--color--grey p--mt--22 p--pr--110">
+                  Гранола из винограда, грецкого ореха и кунжутных семечек. В
+                  состав также входят: сухое молоко, заменитель сахара и какао
+                  бобы.
+                </p>
+              </div>
+              <div class="bar__right-info">
+                <div class="calories">
+                  <p class="p p--size--18 p--color--grey">Калорийность</p>
+                  <p class="p p--size--18 p--color--grey p--fw--bold">
+                    110 ккал
+                  </p>
+                </div>
+                <div class="weight">
+                  <p class="p p--size--18 p--color--grey">Вес</p>
+                  <p class="p p--size--18 p--color--grey p--fw--bold">
+                    95 грамм
+                  </p>
+                </div>
+              </div>
+              <div class="bar__right-price">
+                <div class="price">
+                  <div
+                    class="p p--size--60 p--color--dark p--fw--lighter p--pr--20"
+                  >
+                    140
+                  </div>
+                  <svg class="ruble-svg">
+                    <use xlink:href="./src/images/sprite.svg#ruble"></use>
+                  </svg>
+                </div>
+                <button class="btn btn-order btn-order--green">Заказать</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- <script src="../dist/main.min.js"></script> -->
   </body>
 </html>

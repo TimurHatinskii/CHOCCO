@@ -1,0 +1,35 @@
+.consist {
+  background-color: #ffffff;
+  z-index: 100;
+  width: 270px;
+  padding: 23px 20px 23px 30px;
+  position: absolute;
+  left: 10000px;
+  top: 0px;
+  opacity: 0;
+  transition: opacity 0.8s;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    color: #363636;
+    padding-bottom: 14px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  &__name {
+    padding-left: 23px;
+  }
+
+  &__weight {
+    margin: 0 0 0 auto;
+  }
+}

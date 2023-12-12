@@ -1,0 +1,21 @@
+.info-product {
+  display: flex;
+
+  &__desc {
+    display: flex;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    max-width: 150px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+//   &__text {
+//     padding-left: 10px;
+//     line-height: 1;
+//     inline-size: min-content;
+//   }
+}

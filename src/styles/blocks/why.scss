@@ -1,0 +1,39 @@
+.why {
+  position: relative;
+
+  &__title {
+    text-align: center;
+    padding: 0 26%;
+  }
+
+  &__list {
+    display: flex;
+    margin-top: 57px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__circle {
+    background: rgb(244, 244, 244);
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 25px;
+  }
+
+  &__desc {
+    text-align: center;
+  }
+}

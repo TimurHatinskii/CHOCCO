@@ -1,0 +1,106 @@
+.title {
+  font-size: 48px;
+  font-weight: 800;
+
+  &--color {
+    &--black {
+      color: #000000;
+    }
+  }
+
+  &--fs {
+    &--27 {
+      font-size: 27px;
+    }
+
+    &--36 {
+      font-size: 36px;
+    }
+  }
+
+  &--tt {
+    &--up {
+      text-transform: uppercase;
+    }
+  }
+
+  &--mb {
+    &--12 {
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.p {
+  &--size {
+    &--21 {
+      font-size: 21px;
+    }
+
+    &--18 {
+      font-size: 18px;
+    }
+
+    &--60 {
+      font-size: 60px;
+    }
+  }
+
+  &--color {
+    &--grey {
+      color: #666666;
+    }
+
+    &--dark {
+      color: #151515;
+    }
+  }
+
+  &--mt {
+    &--22 {
+      margin-top: 22px;
+    }
+  }
+
+  &--mb {
+    &--32 {
+      margin-bottom: 32px;
+    }
+  }
+
+  &--pr {
+    &--20 {
+      padding-right: 20px;
+    }
+
+    &--110 {
+      padding-right: 110px;
+    }
+  }
+
+  &--width {
+    &--370 {
+      max-width: 370px;
+    }
+  }
+
+  &--fw {
+    &--lighter {
+      font-weight: lighter;
+    }
+
+    &--bold {
+      font-weight: bold;
+    }
+  }
+}
+
+.text-16 {
+  line-height: 1;
+
+  &--pl {
+    &--8 {
+      padding-left: 8px;
+    }
+  }
+}

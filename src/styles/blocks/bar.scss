@@ -1,0 +1,33 @@
+.bar {
+  background-color: rgb(248, 250, 249);
+
+  &__desc {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__right {
+    width: 49%;
+
+    &-title {
+      margin-top: 37px;
+    }
+
+    &-info {
+      display: flex;
+      margin-top: 40px;
+    }
+
+    &-price {
+      display: flex;
+      margin-top: 23px;
+    }
+  }
+}

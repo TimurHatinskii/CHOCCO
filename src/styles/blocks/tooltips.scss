@@ -1,0 +1,29 @@
+.tooltips {
+  display: flex;
+  width: 90px;
+  height: 90px;
+  background-color: #86c3d7;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+
+  &:hover {
+    background-color: #60aacc;
+    .consist {
+        opacity: 0.9;
+        left: 90px;
+    }
+    
+  }
+
+  &__text {
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}

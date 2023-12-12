@@ -1,0 +1,79 @@
+.natural-svg,
+.car-svg,
+.ruler-svg {
+  fill: #ffffff;
+}
+
+.natural-svg {
+  width: 44px;
+  height: 41px;
+  min-width: 44px;
+}
+
+.car-svg {
+  width: 50px;
+  height: 40px;
+  min-width: 50px;
+}
+
+.ruler-svg {
+  width: 42px;
+  height: 42px;
+  min-width: 42px;
+}
+
+.people-svg {
+  width: 66px;
+  height: 69px;
+  min-width: 66px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.smile-svg {
+  width: 70px;
+  height: 69px;
+  min-width: 70px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hand-svg {
+  width: 75px;
+  height: 64px;
+  min-width: 75px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.chocolate-svg {
+  width: 51px;
+  height: 51px;
+  fill: #ffffff;
+}
+
+.ruble-svg {
+  width: 21px;
+  height: 32px;
+  fill: #151515;
+}
+
+.grape-svg,
+.nut-svg,
+.almond-svg,
+.powder-svg,
+.apitherapy-svg,
+.beans-svg {
+  width: 35px;
+  height: 35px;
+  fill: #363636;
+}

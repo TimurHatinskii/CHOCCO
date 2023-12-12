@@ -1,0 +1,29 @@
+.btn {
+  background-color: #365a49;
+  border-radius: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+
+  &-order {
+    background-color: #ffffff;
+    color: #365a49;
+    padding: 18px 35px;
+
+    &:hover {
+      background-color: #365a49;
+      color: #ffffff;
+    }
+
+    &--green {
+      background-color: #365a49;
+      color: #ffffff;
+
+      &:hover {
+        background-color: rgb(46, 78, 63);
+        color: #ffffff;
+      }
+    }
+  }
+}

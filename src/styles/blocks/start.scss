@@ -1,0 +1,31 @@
+.start {
+  position: relative;
+  background-image: url("/src/images/start.jpg");
+  background-size: cover;
+
+  &__info {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    // flex: 1;
+    // flex-wrap: wrap;
+    // flex-direction: column;
+    // justify-content: center;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 46px;
+    width: 50%;
+
+    &-picture {
+      display: flex;
+      padding: 0 0 60px 38px;
+    }
+  }
+
+  &__desc {
+    margin-bottom: 68px;
+  }
+}
