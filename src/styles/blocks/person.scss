@@ -1,0 +1,32 @@
+.person {
+  display: flex;
+  justify-content: space-between;
+
+  &__board {
+    width: 220px;
+  }
+
+  &__photo {
+    width: 220px;
+    height: 288px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__desc {
+    margin-top: 18px;
+    text-align: center;
+  }
+
+  &__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__info {
+    line-height: 1;
+  }
+}
