@@ -16,6 +16,10 @@
     &--36 {
       font-size: 36px;
     }
+
+    &--21 {
+      font-size: 21px;
+    }
   }
 
   &--tt {
@@ -33,6 +37,11 @@
 
 .p {
   &--size {
+
+    &--60 {
+      font-size: 60px;
+    }
+
     &--21 {
       font-size: 21px;
     }
@@ -41,8 +50,8 @@
       font-size: 18px;
     }
 
-    &--60 {
-      font-size: 60px;
+    &--17 {
+      font-size: 17px;
     }
   }
 
@@ -54,11 +63,23 @@
     &--dark {
       color: #151515;
     }
+
+    &--2a2323 {
+      color: #2a2323;
+    }
   }
 
   &--mt {
     &--22 {
       margin-top: 22px;
+    }
+
+    &--10 {
+      margin-top: 10px;
+    }
+
+    &--7 {
+      margin-top: 7px;
     }
   }
 
